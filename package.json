@@ -2,8 +2,9 @@
   "name": "moveandlight",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/pootismc/move-and-light#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "path": "^0.12.7"
   }
 }
