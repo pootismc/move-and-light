@@ -38,6 +38,13 @@ body {
     background-color: #000;
 }
 
+.imagee {
+    width: 30%;
+    position: absolute;
+    right: 320px;
+    top: -10px;
+}
+
 
 
 .wrapper .caption {
@@ -105,4 +112,27 @@ body {
           height: 100vh;
     }
 
+}
+
+@media screen and (min-width:1200px) {
+
+    .wrapper {
+          display: flex;
+    }
+
+
+    .wrapper .left,
+    .wrapper .right {
+          width: 50%;
+          height: 100vh;
+    }
+
+}
+
+@media(max-width:475px){
+    .imagee {
+        width: 30%;
+        left: 100px;
+        top: -100px;
+    }    
 }
