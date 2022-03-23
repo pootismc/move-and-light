@@ -45,6 +45,22 @@ body {
     top: -10px;
 }
 
+.button1{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.button2{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
 
 .wrapper .caption {
@@ -54,31 +70,54 @@ body {
     text-align: center;
 }
 
-
 .wrapper .caption h1 {
     text-transform: uppercase;
     letter-spacing: 0.25em;
-    margin-bottom:1em;
 }
 
-
-.wrapper .caption .button {
+.wrapper .caption .button1  {
     background: #000;
     color: #fff;
-    padding: 1em 2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
     text-decoration: none;
     font-weight: 600;
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     transition: 0.25s ease all;
+    border-radius: 5px;
 }
 
 
-.wrapper .caption .button:hover {
+
+.wrapper .caption .button2  {
+    background: #fff;
+    color: #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: 0.25s ease all;
+    border-radius: 5px;
+}
+
+/* .wrapper .caption .button1:hover {
     background: #ffd346;
     color: #000;
 }
+
+.wrapper .caption .button2:hover {
+    background: #ffd346;
+    color: #000;
+} */
 
 
 .wrapper .side::before {
