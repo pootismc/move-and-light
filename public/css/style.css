@@ -17,6 +17,9 @@ body {
     justify-content: center;
 }
 
+.logo {
+    width: 350px;
+}
 
 .wrapper .image {
     width: 100%;
@@ -41,8 +44,8 @@ body {
 .imagee {
     width: 30%;
     position: absolute;
-    right: 320px;
-    top: -10px;
+    right: 380px;
+    top: -25px;
 }
 
 .button1{
